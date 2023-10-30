@@ -9,14 +9,17 @@ function download(){
         link.download = nombreArchivo;
         link.href = url;
         link.click();
-
-        var mensaje = document.getElementsByClassName("mensaje-download")[0]
-        var pantallaNegra = document.getElementsByClassName("pantalla-negra")[0]
-        var contMensaje = document.getElementsByClassName("cont-m-d")[0]
-
-        mensaje.style.top = "25%"
-        pantallaNegra.style.display = "block"
-        contMensaje.style.top = "0"
+        
+        setTimeout(() => {
+            // Instrucciones que se ejecutarán después de 3000 milisegundos
+            var mensaje = document.getElementsByClassName("mensaje-download")[0];
+            var pantallaNegra = document.getElementsByClassName("pantalla-negra")[0];
+            var contMensaje = document.getElementsByClassName("cont-m-d")[0];
+        
+            mensaje.style.top = "25%";
+            pantallaNegra.style.display = "block";
+            contMensaje.style.top = "0";
+        }, 1000);
     }
 }
 
