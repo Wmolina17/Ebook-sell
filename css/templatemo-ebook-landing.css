@@ -968,8 +968,8 @@ strong {
   
   .nav-pills .nav-link {
     font-size: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px 20px;
   }
   .blockquote{
