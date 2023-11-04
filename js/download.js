@@ -19,7 +19,7 @@ function download(){
             mensaje.style.top = "25%";
             pantallaNegra.style.display = "block";
             contMensaje.style.top = "0";
-        }, 1000);
+        }, 2000);
     }
 }
 
